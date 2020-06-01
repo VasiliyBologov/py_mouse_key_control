@@ -4,7 +4,8 @@ import sys
 def get_position():
     while True:
         #print(pyautogui.position())
-        sys.stdout.write("\rmouse position {}".format(pyautogui.position()))
+        x, y = pyautogui.position()
+        sys.stdout.write("\rmouse position x = {} y = {}".format(x, y))
 
 
 

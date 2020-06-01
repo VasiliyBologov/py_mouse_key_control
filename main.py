@@ -1,5 +1,5 @@
-
-
+#https://www.geeksforgeeks.org/mouse-keyboard-automation-using-python/
+#https://pyautogui.readthedocs.io/en/latest/mouse.html
 import pyautogui
 print(pyautogui.position())
 
